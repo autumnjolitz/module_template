@@ -41,7 +41,7 @@ if __version__ is None:
     raise IOError('about.py in project lacks __version__!')
 
 setup(name='module_template', version=__version__,
-      author='Ben Jolitz',
+      author='Autumn Jolitz',
       description='Template for creating python modules',
       long_description=long_description,
       license='BSD',
@@ -80,7 +80,7 @@ setup(name='module_template', version=__version__,
       # ],
       install_requires=install_requirements,
       keywords=['module', 'template', 'library'],
-      url="https://github.com/benjolitz/module_template",
+      url="https://github.com/autumnjolitz/module_template",
       classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
